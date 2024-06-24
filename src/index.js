@@ -43,8 +43,7 @@ async function handleRequest(request) {
         status: 404,
       }
     );
-  }
-  import DOCS from './help.html'
+  }  
  
 // return docs
 if (url.pathname === "/") {
